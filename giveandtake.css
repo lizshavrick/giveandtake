@@ -1600,7 +1600,6 @@ top: 4vh;
 
 .hours-copy {
 
-
   background-color: #283b00;
   width:  34vw;
 
@@ -1610,14 +1609,14 @@ margin: auto;
 z-index: 4;
   border-radius: 30% 55% 30% 60% / 30% 45% 50% 57%;;
   position: absolute;
-  left: 54vw;
+  left: 55vw;
   top: 34vh;
- padding-left: 15vh;
- padding-right: 9vw;
- padding-bottom: 12vh;
+ padding-bottom: 14vh;
+ padding-right: 6vw;
+ padding-left: 8vw;
 
 }
-/*.hours-copy2 {
+.hours-copy2 {
 margin: auto;
   background-color: #283b00;
   width:  30vw;
@@ -1630,7 +1629,7 @@ z-index: 4;
   left: 59vw;
   top: 98vh;
   
-*/
+
 }
 
 
@@ -2317,10 +2316,11 @@ top: 50vh;
       font-size: 1.4vw;
         text-decoration: none;
   background-color: #d3ebc7;
-  padding-right:3vw;
-    padding-left:3vw;
+  padding:3vw;
+  padding-bottom: 8vh;
+    padding-top: 8vh;
   width: 7vw;
-
+  
   color: #283b00;
 
 }
