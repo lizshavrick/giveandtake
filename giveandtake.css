@@ -222,7 +222,7 @@ height: 1350vw;
 position: absolute;
 display: block;
 left: -1%;
-top: 65vh;
+top: 60 vh;
 
 }
 
@@ -377,6 +377,73 @@ top: 23vh;
 
 
 
+.templatetry2{
+z-index: 10;
+width: 150vw;
+height: 1350vw;
+position: absolute;
+display: block;
+left: -1%;
+top: 60vh;
+
+}
+
+
+
+.code-download {
+margin: auto;
+position: relative;
+width: 10vw;
+height: 3vh;
+   border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%;
+    text-align: center;
+      font-size: 4vw;
+        text-decoration: none;
+  background-color: black;
+  padding: 5.5vw;
+  top: 101%;
+  left: 40%;
+  padding: 4vw;
+
+}
+
+.font-download {
+margin: auto;
+position: relative;
+width: 25vw;
+height: 10vh;
+   border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%;
+    text-align: center;
+      font-size: 4vw;
+        text-decoration: none;
+  background-color: black;
+  padding: 4vw;
+  top: 23.5%;
+  left: 21%;
+
+
+}
+
+.flyer-download {
+margin: auto;
+position: relative;
+
+width: 25vw;
+height: 1vh;
+   border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%;
+    text-align: center;
+      font-size: 4vw;
+        text-decoration: none;
+  background-color: black;
+  padding:5.5vw;
+  top: 70.5%;
+  left: -37%;
+ 
+
+}
+
+
+
 
 
 .resource-button {
@@ -412,7 +479,10 @@ top: 4vh;
 
 }
 
+.ah {
 
+  text-decoration: underline;
+}
 
 .hours-copy {
 
@@ -540,7 +610,7 @@ z-index: -2;
   margin: auto;
   background-color: #283b00;
   width:  120vw;
-  height: 40vh;
+  height: 44vh;
   font-size: 2vw;
   color:#d3ebc7;
   text-align: center;
@@ -726,44 +796,6 @@ width: 16vw;
 
 
 
-
-.font-download {
-  margin: auto;
-  display: block;
-  position: absolute;
-width: 7vw;
-height: 3vh;
-   border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%;
-    text-align: center;
-      font-size: 1.4vw;
-        text-decoration: none;
-  background-color: black;
-  padding: 5.5vw;
-  left: 24vw;
-  top: 257vh;
-  padding: 4vw;
-  padding-bottom: -3vh;
-
-}
-
-.code-download {
-  margin: auto;
-  display: block;
-  position: absolute;
-width: 7vw;
-height: 3vh;
-   border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%;
-    text-align: center;
-      font-size: 1.4vw;
-        text-decoration: none;
-  background-color: black;
-  padding: 5.5vw;
-  left: 24vw;
-  top: 700vh;
-  padding: 4vw;
-  padding-bottom: -3vh;
-
-}
 
 .resources {
   margin-top: 10vh;
@@ -1198,7 +1230,7 @@ width: 90vw;
 
 
 
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 500px) {
 
 
 
@@ -1339,6 +1371,13 @@ top: 50vh;
 
 }
 
+.bottomtemplate {
+
+width: 100%;
+height: auto;
+
+}
+
 .templateshape2 {
 
 z-index: 2;
@@ -1358,20 +1397,20 @@ top: 100vh;
 .font-button {
 
 background-image: url(font button-02.svg) no-repeat;
-z-index: -6;
+z-index: 6;
 width: 100vw;
 height: auto;
 position: absolute;
 display: block;
 overflow: hidden;
 
-left: -1%;
+
 top: 250vh;
 
 }
 
 .font-button :hover {
-  background-color: green;
+  fill: green;
   z-index: 6;
 }
 
@@ -1561,20 +1600,24 @@ top: 4vh;
 
 .hours-copy {
 
-  background-color: #283b00;
-  width:  30vw;
 
+  background-color: #283b00;
+  width:  34vw;
+
+margin: auto;
   font-size: 2vw;
   color:#d3ebc7;
 z-index: 4;
   border-radius: 30% 55% 30% 60% / 30% 45% 50% 57%;;
   position: absolute;
-  left: 56vw;
+  left: 54vw;
   top: 34vh;
- padding: 12vh;
+ padding-left: 15vh;
+ padding-right: 9vw;
+ padding-bottom: 12vh;
 
 }
-.hours-copy2 {
+/*.hours-copy2 {
 margin: auto;
   background-color: #283b00;
   width:  30vw;
@@ -1587,7 +1630,7 @@ z-index: 4;
   left: 59vw;
   top: 98vh;
   
-
+*/
 }
 
 
@@ -1950,23 +1993,70 @@ height: 3vh;
 }
 
 .code-download {
-  margin: auto;
-  display: block;
-  position: absolute;
-width: 7vw;
+margin: auto;
+position: relative;
+width: 10vw;
 height: 3vh;
    border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%;
     text-align: center;
-      font-size: 1.4vw;
+      font-size: 2vw;
         text-decoration: none;
   background-color: black;
   padding: 5.5vw;
-  left: 24vw;
-  top: 700vh;
+  top: 96%;
+left: 9%;
   padding: 4vw;
-  padding-bottom: -3vh;
 
 }
+
+.font-download {
+margin: auto;
+position: relative;
+width: 15vw;
+height: 5vh;
+   border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%;
+    text-align: center;
+      font-size: 2vw;
+        text-decoration: none;
+  background-color: black;
+  padding: 3vw;
+  top: 23.5%;
+  left: -1%;
+
+
+}
+
+.flyer-download {
+margin: auto;
+position: relative;
+
+width: 25vw;
+height: 1vh;
+   border-radius: 41% 59% 41% 59% / 43% 45% 55% 57%;
+    text-align: center;
+      font-size: 2vw;
+        text-decoration: none;
+  background-color: black;
+  padding: 4vw;
+  top: 67%;
+  left: 27%;
+ 
+
+}
+
+
+
+.templatetry2{
+z-index: 10;
+width: 100vw;
+height: 500vw;
+position: absolute;
+display: block;
+left: -1%;
+top: 50vh;
+
+}
+
 
 
 .m-resource-button0 {
@@ -2193,6 +2283,9 @@ height: 3vh;
 
 }
 
+
+
+
 .m-resource-button13 {
   margin: auto;
   display: block;
@@ -2224,9 +2317,10 @@ height: 3vh;
       font-size: 1.4vw;
         text-decoration: none;
   background-color: #d3ebc7;
-  padding:3vw;
+  padding-right:3vw;
+    padding-left:3vw;
   width: 7vw;
-  height: 19vh;
+
   color: #283b00;
 
 }
@@ -2408,9 +2502,6 @@ margin-left: 2vw;
 width: 34vw;
 position: relative;
 }
-
-
-
 
 
 
