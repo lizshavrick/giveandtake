@@ -105,12 +105,12 @@ h4 {
 
 
 iframe {
- width:  70vw;
-  height: 19vh;
+ width:  72vw;
+  height: 21vh;
   margin-top: 55vh;
   padding-right: 0;
 z-index: 9;
-left: 1vw;
+left: -6vw;
 
 
 transform: rotate(-90deg);
@@ -152,6 +152,7 @@ img {
   z-index: 1;
    position: relative;
    height: 100vh;
+   overflow-x: hidden;
 
 
 
@@ -493,8 +494,8 @@ top: 4vh;
 z-index: 4;
   border-radius: 30% 55% 30% 70% / 40% 45% 40% 30%;;
   position: absolute;
-  left: 2vw;
-  top: 84vh;
+  left: -6vw;
+  top: 85vh;
  padding: 6vh;
 
 }
@@ -1140,7 +1141,7 @@ height: 30vh;
 
  .container-5 {
   padding-left: 4vw;
-  overflow: hidden;
+  overflow-y: hidden;
   overflow-x: hidden;
 
  }
