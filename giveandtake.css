@@ -488,14 +488,13 @@ top: 4vh;
 
   background-color: #283b00;
   width:  80vw;
-
   font-size: 2vw;
   color:#d3ebc7;
 z-index: 4;
   border-radius: 30% 55% 30% 70% / 40% 45% 40% 30%;;
   position: absolute;
   left: 2vw;
-  top: 82vh;
+  top: 84vh;
  padding: 6vh;
 
 }
