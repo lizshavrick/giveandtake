@@ -37,7 +37,7 @@ background-size: 100vw 100vh;
 p {
   font-family: OpenSans-Regular;
   font-size: 4vw;
-  color: #d3ebc7;
+  color: #fff9b3;
   padding-bottom: 0;
   position: relative;
  
@@ -91,7 +91,7 @@ h2 {
 h3 {
   font-size: 6vw;
   font-family: OpenSans-Regular;
-  color:#d3ebc7;
+  color:#fff9b3;
 }
 
 h4 {
@@ -129,6 +129,11 @@ img {
 #mobilecontainer {
   overflow-x: hidden;
 }
+
+.homecolor{
+  background-color: #ff5902;
+}
+
 
 .container-3{
   display: inline-flex;
@@ -487,10 +492,10 @@ top: 4vh;
 
 .hours-copy {
 
-  background-color: #283b00;
+  background-color: #ff5902;
   width:  80vw;
   font-size: 2vw;
-  color:#d3ebc7;
+  color:#ff5902;
 z-index: 4;
   border-radius: 30% 55% 30% 70% / 40% 45% 40% 30%;;
   position: absolute;
@@ -608,7 +613,7 @@ z-index: -2;
 
 .template-copy {
   margin: auto;
-  background-color: #283b00;
+  background-color: #d3ebc7;
   width:  120vw;
   height: 44vh;
   font-size: 2vw;
@@ -1232,6 +1237,12 @@ width: 90vw;
 
 @media only screen and (min-width: 500px) {
 
+  .homecolor{
+  background-color: #ff5902;
+}
+
+
+
 
 @font-face {
   font-family: ApfelGrotezk-Fett;
@@ -1269,7 +1280,7 @@ background-size: 100vw 100vh;
 p {
   font-family: OpenSans-Regular;
   font-size: 1.5vw;
-  color: #d3ebc7;
+  color: #fff9b3;
   padding-bottom: 0;
   position: relative;
  
@@ -1323,7 +1334,7 @@ h2 {
 h3 {
   font-size: 2vw;
   font-family: OpenSans-Regular;
-  color:#d3ebc7;
+  color:#fff9b3;
 }
 
 h4 {
@@ -1620,12 +1631,12 @@ top: 4vh;
 
 .hours-copy {
 
-  background-color: #283b00;
+  background-color: #ff5902;
   width:  34vw;
 
 margin: auto;
   font-size: 2vw;
-  color:#d3ebc7;
+  color:#ff5902;
 z-index: 4;
   border-radius: 30% 55% 30% 60% / 30% 45% 50% 57%;;
   position: absolute;
@@ -1762,7 +1773,7 @@ z-index: -2;
 
 .template-copy {
   margin: auto;
-  background-color: #283b00;
+  background-color: #d3ebc7;
   width:  75vw;
   height: 48vh;
   font-size: 2vw;
