@@ -1354,7 +1354,9 @@ top: 3vh;
 
   border: none;
   padding-right: 4vw;
-  padding: 4vw;
+    padding-left: 5vw;
+    padding-top: 5vw;
+
 z-index: 4;
 position: absolute;
 
